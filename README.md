@@ -256,7 +256,7 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 Please include a screenshot here of the hidden JavaScript:
 
-  ![Hidden JavaScript](Images/Homework-15-Web_Script-User-youaretheweakestlink-screen.png)
+  ![Hidden JavaScript](Images/Homework-15-Web-Script-User-youaretheweakestlink-screen.png)
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
@@ -347,6 +347,8 @@ Your final act is to deface the website using command injection. Follow the walk
   * Your final command will:
     * Change to the location of the `webgoat_challenge_guest.jsp` file.
     * **and** echo `You've been hacked by...` followed by your name, to the `webgoat_challenge_guest.jsp` file.
+
+   ![Display Defaced](Images/Homework-15-Challenge-3-Defaced-Screen.png)
 
    ![Lession Success](Images/Homework-15-Challenge-3-Lesson-Complete.png)
 ---
