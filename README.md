@@ -256,6 +256,8 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 Please include a screenshot here of the hidden JavaScript:
 
+  ![Hidden JavaScript](Images/Homework-15-Web_Script-User-youaretheweakestlink-screen.png)
+
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
 #### Challenge #2
@@ -267,6 +269,8 @@ Next, steal all of the credit card numbers from the database.
 - **Hint #2**: Break your way into the conversation and inject your own ideas.
 
 Please include a screenshot here of all the credit card numbers from the database. 
+
+  ![Cracked credit cards](Images/Homework-15-Challenge-3-Get-Creditcard-Numbers-Confirmation-screen.png)
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 
@@ -344,5 +348,6 @@ Your final act is to deface the website using command injection. Follow the walk
     * Change to the location of the `webgoat_challenge_guest.jsp` file.
     * **and** echo `You've been hacked by...` followed by your name, to the `webgoat_challenge_guest.jsp` file.
 
+   ![Lession Success](Images/Homework-15-Challenge-3-Lesson-Complete.png)
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
