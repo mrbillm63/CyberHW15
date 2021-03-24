@@ -45,34 +45,35 @@ Use the graphic below to answer the following questions:
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
-  -  Parameters
+    -  Parameters
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
-  - Path
+    - Path
    
 3. Name three threat agents that can pose a risk to your organization.
 
-  - Nationstates 
-  - Hacktivitis
-  - Organized Crime 
+    - Nationstates 
+    - Hacktivitis
+    - Organized Crime 
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 
-  -  Cross site scripting
-  -  Code Injection
-  -  SQL Injection
-  -  EMAIL Header
+    -  Cross site scripting
+    -  Code Injection
+    -  SQL Injection
+    -  EMAIL Header
 
 
 5. Injection attacks exploit which part of the CIA triad?
 
-  - Confidentiality 
+    -  Confidentiality 
 
 6. Which two mitigation methods can be used to thwart injection attacks?
 
-  - scrub all input data
-  - application code review 
+    -  Scrub all input data
+    -  Application code review 
+    -  Consistant Patching
 ____
 
 #### Web Server Infrastructure
@@ -84,30 +85,30 @@ Web application infrastructure includes  sub-components and external application
 
 Use the graphic below to answer the following questions:
 
-| Stage 1        | Stage 2             | Stage 3                 | Stage 4              | Stage 5          |
+| Stage 1        | Stage 2             | Stage 3                 | Stage 4              | Stage 5            |
 | :------------: | :-----------------: | :---------------------: | :------------------: | :--------------: |
 | **Client**     | **Firewall**        | **Web Server**          | **Web Application**  | **Database**     |
    
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
 
-  - Database
+   -  Database
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
 
-  -  Web Application
+   -  Web Application
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
 
-  -  Web Server
+   -  Web Server
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
 
-   - Client 
+   -  Client 
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
 
-   - Firewall
+   -  Firewall
 
 
 ----
@@ -128,22 +129,22 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
-  -  High Implementation Costs
-  -  Insufficient support from management 
-  -  Insufficient standardization 
+    -  High Implementation Costs
+    -  Insufficient support from management 
+    -  Insufficient standardization 
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
-  - Since the robots.txt file on the server tell search engines which directories can or can't be read reveales where they can contain important sensitive data may be stored (TLBR).
+   -  Since the robots.txt file on the server tell search engines which directories can or can't be read reveales where they can contain important sensitive data may be stored (TLBR).
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
-  -  Private registration service acting on your behalf. They will forward the filtered info to you
-  -  
+  -   Proxy service provided by Private registration service acting on behalf of the registrant. 
+   
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
-   - Explain why you chose the answer that you did.
+     - Explain why you chose the answer that you did.
 
      - FALSE Client side attacks can be difficult to mitigate they occur behind the firewall on the local corporate network.
      - Example of Client side attackes
@@ -199,15 +200,15 @@ Security enhancements designed to require users to present two or more pieces of
 
    
 2. True or False: A password and pin is an example of 2-factor authentication.
-             -  False
+     -  False
 
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
-             -  True
+     -  True
    
 4. What is a constrained user interface?
 
-             -   An interface design that limits the possible actions a user can do with a control.  
-             -   A constrained user interface limits the users environment within the system and access to objects. 
+     -  An interface design that limits the possible actions a user can do with a control.  
+     -  A constrained user interface limits the users environment within the system and access to objects. 
 
 ----
 ____
@@ -285,7 +286,7 @@ Your final act is to deface the website using command injection. Follow the walk
 
 - There should be two webpages at the bottom of the window. The one on top is the original, and the one on the bottom is the defaced webpage.
 
-   ![original webpage](/Images/original_defaced.png)
+   ![original webpage](Images/original_defaced.png)
 
 - Start Foxy Proxy (WebScarab) to send all GET/POST requests from Firefox to the WebScarab proxy intercept.
 
